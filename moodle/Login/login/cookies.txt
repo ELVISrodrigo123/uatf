@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+virtual.uatf.edu.bo	TRUE	/	FALSE	1999999999	MoodleSession	gomdh4dj3qt9hu03vcab66g21g
+

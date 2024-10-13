@@ -1,0 +1,17 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 12 Oct 2024 16:14:18 at https://estudiantes.uatf.edu.bo/login +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://estudiantes.uatf.edu.bo/login -O1 "D:\uatf\prueba" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:14:22	Error: 	"Not Found" (404) at link https://estudiantes.uatf.edu.bo/fonts/glyphicons-halflings-regular.eot?f4769f9bdb7466be65088239c12046d1 (from https://estudiantes.uatf.edu.bo/css/app.css)
+16:14:24	Error: 	"Not Found" (404) at link https://estudiantes.uatf.edu.bo/fonts/glyphicons-halflings-regular.eot (from https://estudiantes.uatf.edu.bo/css/bootstrap.min.css)
+16:14:24	Error: 	"Not Found" (404) at link https://estudiantes.uatf.edu.bo/fonts/glyphicons-halflings-regular.eot? (from https://estudiantes.uatf.edu.bo/css/bootstrap.min.css)
+16:14:24	Error: 	"Not Found" (404) at link https://estudiantes.uatf.edu.bo/fonts/glyphicons-halflings-regular.woff (from https://estudiantes.uatf.edu.bo/css/bootstrap.min.css)
+16:14:24	Error: 	"Not Found" (404) at link https://estudiantes.uatf.edu.bo/fonts/glyphicons-halflings-regular.ttf (from https://estudiantes.uatf.edu.bo/css/bootstrap.min.css)
+16:14:24	Error: 	"Not Found" (404) at link https://estudiantes.uatf.edu.bo/fonts/glyphicons-halflings-regular.svg (from https://estudiantes.uatf.edu.bo/css/bootstrap.min.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 seconds : 22 links scanned, 15 files written (1036027 bytes overall) [315019 bytes received at 52503 bytes/sec], 1057653 bytes transferred using HTTP compression in 20 files, ratio 27%, 7.3 requests per connection
+(6 errors, 0 warnings, 0 messages)
