@@ -15,8 +15,8 @@ if ($conn->connect_error) {
 }
 
 // Obtener datos del formulario
-$user = $_POST['usuario'] ?? ''; // Usar ?? para evitar undefined index
-$pass = $_POST['clave'] ?? '';
+$user = $_POST['username'] ?? ''; // Usar ?? para evitar undefined index
+$pass = $_POST['password'] ?? '';
 
 // Validación básica
 if (empty($user) || empty($pass)) {
@@ -36,14 +36,14 @@ if ($result->num_rows > 0) {
     echo "<script>alert('El usuario ya existe.'); window.location.href='index.html';</script>";
 } else {
     // Si el usuario no existe, procedemos con el registro 
-    $sql_insert = "INSERT INTO usuariosD (username, password) VALUES (?, ?)";
+    $sql_insert = "INSERT INTO usuariosDir (username, password) VALUES (?, ?)";
     $stmt_insert = $conn->prepare($sql_insert);
     $stmt_insert->bind_param("ss", $user, $pass);
 
     if ($stmt_insert->execute()) {
         // Registro exitoso
         $_SESSION['username'] = $user;
-        header("Location: docentes.html"); // Redirigir a la página del dashboard después de registro
+        header("Location: login.html"); // Redirigir a la página del dashboard después de registro
         exit();
     } else {
         // Error en la inserción
