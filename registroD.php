@@ -15,8 +15,8 @@ if ($conn->connect_error) {
 }
 
 // Obtener datos del formulario
-$user = $_POST['username'] ?? ''; // Usar ?? para evitar undefined index
-$pass = $_POST['password'] ?? '';
+$user = $_POST['usuario'] ?? ''; // Usar ?? para evitar undefined index
+$pass = $_POST['clave'] ?? '';
 
 // Validación básica
 if (empty($user) || empty($pass)) {

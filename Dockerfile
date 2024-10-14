@@ -16,6 +16,8 @@ COPY . /var/www/html
 
 # Configura permisos de los archivos
 RUN chmod -R 755 /var/www/html
+RUN docker-php-ext-install mysqli
+
 
 # Exponer el puerto 80 para servir la aplicación web
 EXPOSE 80
